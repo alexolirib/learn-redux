@@ -21,6 +21,7 @@ class Field extends Component {
 //aqui fico mapeando o estado para propriedade
 const mapStateToProps = state => ({ value: state.field.value })
 
+
 //aqui estamos mapeando o método para a props
 //recebe como parametro o dispatch é que dispara a ação e assim fazer o connect
 //bindActionCreators(todas os actions creator(sendo um objeto), aqui o dispatch(dispar ação))
